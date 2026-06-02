@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>李家优品 | 简约生活好物</title>
+    <title>李家优品 | 精选生活日用品</title>
     <meta
       name="description"
-      content="李家优品，甄选日常清洁、收纳与家居好物。扫码进入拼多多店铺，查看实时商品。"
+      content="李家优品，精选清洁护理、居家收纳与生活日用品。扫码进入拼多多店铺，查看实时商品、价格与库存。"
     >
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -26,41 +26,41 @@
         <span>李家优品</span>
       </a>
       <nav class="nav-links" aria-label="主要栏目">
-        <a href="#selection">商品</a>
-        <a href="#about">品牌</a>
-        <a href="#shop">扫码</a>
+        <a href="#selection">精选</a>
+        <a href="#about">理念</a>
+        <a class="nav-cta" href="#shop">进店</a>
       </nav>
     </header>
 
     <main>
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Lijia Select</p>
-          <h1 id="hero-title">让日常用品，回到干净好用。</h1>
+          <p class="eyebrow">Lijia Select / Daily Essentials</p>
+          <h1 id="hero-title">把家的日常，整理成更清爽的样子。</h1>
           <p class="lead">
-            李家优品甄选清洁、收纳与家居小物，用克制的价格和清爽的体验，
-            陪你把家里细碎的地方照顾好。
+            李家优品关注清洁护理、居家收纳与实用小物。我们用更克制的选择，
+            帮你减少杂乱，留下真正顺手、耐用、值得回购的日用品。
           </p>
           <div class="hero-actions">
-            <a class="primary-link" href="#shop">扫码进店</a>
-            <a class="secondary-link" href="#selection">查看商品入口</a>
+            <a class="primary-link" href="#shop">扫码进入店铺</a>
+            <a class="secondary-link" href="#selection">浏览精选分类</a>
           </div>
         </div>
 
-        <aside class="qr-panel" id="shop" aria-label="拼多多店铺二维码">
-          <div class="qr-title">
+        <aside class="store-card" id="shop" aria-label="拼多多店铺二维码">
+          <div class="store-card-head">
             <img
-              class="qr-logo"
+              class="store-logo"
               src="assets/logo-96.jpg"
-              width="48"
-              height="48"
+              width="56"
+              height="56"
               alt=""
               aria-hidden="true"
               decoding="async"
             >
             <div>
-              <p>拼多多店铺入口</p>
-              <h2>扫码进入李家优品</h2>
+              <p>Official Store</p>
+              <h2>李家优品旗舰入口</h2>
             </div>
           </div>
           <div class="qr-frame">
@@ -77,19 +77,41 @@
           <p class="qr-note">
             手机端可长按二维码，选择“识别二维码”或“扫二维码”，进入店铺查看实时商品、价格与库存。
           </p>
+          <div class="store-meta" aria-label="店铺特点">
+            <span>日用好物</span>
+            <span>实时库存</span>
+            <span>便捷下单</span>
+          </div>
         </aside>
       </section>
 
-      <section class="products" id="selection" aria-label="李家优品商品入口">
+      <section class="marquee" aria-label="品牌关键词">
+        <span>Clean</span>
+        <span>Organized</span>
+        <span>Useful</span>
+        <span>Selected</span>
+      </section>
+
+      <section class="products" id="selection" aria-label="李家优品精选分类">
         <div class="section-heading">
-          <p class="eyebrow">Products</p>
-          <h2>店铺好物</h2>
+          <p class="eyebrow">Selection</p>
+          <h2>为高频日常而选</h2>
         </div>
         <div class="product-grid">
-          <article>
-            <span>01</span>
-            <h3>清洁护理</h3>
-            <p>洗护、清洁与日常消耗品，适合高频补货。</p>
+          <article class="product-featured">
+            <div class="product-visual product-visual-wide">
+              <img
+                src="assets/sea-monster-pink.jpg"
+                width="920"
+                height="920"
+                alt="大海怪粉色系列卷纸"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+            <span>01 / Care</span>
+            <h3>大海怪春上新系列</h3>
+            <p>柔滑棉感，有芯卷纸，适合家庭日常补货。</p>
             <a
               href="https://mobile.yangkeduo.com/mall_page.html?ps=9jGcjPHOej"
               target="_blank"
@@ -97,9 +119,19 @@
             >进店查看</a>
           </article>
           <article>
-            <span>02</span>
-            <h3>居家收纳</h3>
-            <p>把桌面、柜角和浴室小物整理得更清爽。</p>
+            <div class="product-visual">
+              <img
+                src="assets/sea-monster-blue.jpg"
+                width="760"
+                height="760"
+                alt="大海怪蓝色系列卷纸"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+            <span>02 / Home</span>
+            <h3>大海怪蓝色系列</h3>
+            <p>清爽包装，家庭常备，用量看得见。</p>
             <a
               href="https://mobile.yangkeduo.com/mall_page.html?ps=9jGcjPHOej"
               target="_blank"
@@ -107,9 +139,19 @@
             >进店查看</a>
           </article>
           <article>
-            <span>03</span>
-            <h3>生活小物</h3>
-            <p>顺手、耐用、容易回购的小件家用好物。</p>
+            <div class="product-visual product-visual-minimal">
+              <img
+                src="assets/sea-monster-color-pack.jpg"
+                width="760"
+                height="760"
+                alt="大海怪彩色小包手帕纸组合"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+            <span>03 / Utility</span>
+            <h3>随身手帕纸组合</h3>
+            <p>五层加厚，小包便携，适合包里、车里和办公室常备。</p>
             <a
               href="https://mobile.yangkeduo.com/mall_page.html?ps=9jGcjPHOej"
               target="_blank"
@@ -121,14 +163,26 @@
 
       <section class="about" id="about" aria-labelledby="about-title">
         <div class="section-heading">
-          <p class="eyebrow">About</p>
-          <h2 id="about-title">认真挑选，少一点复杂。</h2>
+          <p class="eyebrow">Philosophy</p>
+          <h2 id="about-title">不追求复杂，只保留好用。</h2>
         </div>
-        <p>
-          我们相信好的日用品不必喧哗。它应该摆得住、用得顺、补货方便，
-          在每天重复发生的小事里，带来稳定、清洁和安心。
-        </p>
+        <div class="about-copy">
+          <p>
+            国际化的日用品品牌感，来自可靠、清晰和克制。李家优品希望每一件小物都能
+            安静地解决问题：摆得住、用得顺、补货方便，也让家里的秩序感自然发生。
+          </p>
+          <ul>
+            <li>精选高频场景，而不是堆满选择。</li>
+            <li>关注实用质感，而不是短暂新鲜。</li>
+            <li>让扫码、选购和复购都足够直接。</li>
+          </ul>
+        </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <span>李家优品</span>
+      <span>Clean essentials for everyday living.</span>
+    </footer>
   </body>
 </html>
